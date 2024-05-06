@@ -1,5 +1,6 @@
 # information-retriever
-All what you need for information retrieval resources.
+All what you need for information retrieval resources. (Inspired by caiyinqiong)
+Feel free to participate. 
 Work in progress...
 
 
