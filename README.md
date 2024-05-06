@@ -1,5 +1,20 @@
-# information-retriever
+# information-retriever-Pipline
+I am doing a PhD on Information retriever and I am happy to share what I learning 
 All what you need for information retrieval resources. (Inspired by caiyinqiong)
+
+<div align="center">
+    <p><b>Pipeline IR - How to build an IR pipeline</b></p>
+    <br><br>
+   <img width="500" src="./images/build_pip.png" alt="Awesome">
+</div>
+
+<div align="center">
+    <p><b>Pipeline of IR - Inference </b></p>
+    <br><br>
+   <img width="500" src="./images/inference.png" alt="Awesome">
+</div>
+
+
 
 Feel free to participate. 
 Work in progress...
@@ -21,14 +36,15 @@ Work in progress...
     - [Sparse Retrieval Methods](#sparse-retrieval-methods)
     - [Dense Retrieval Methods](#dense-retrieval-methods)
   - [Hybrid Retrieval Methods](#hybrid-retrieval-methods)
-  - [Chapter 4: Other Resources](#other-resources)
-    - [Other Tasks](#other-tasks)
+- [Chapter 4: Other Resources](#other-resources)
+  - [Other Tasks](#other-tasks)
 - [Vector DataBase](#DataBase) to do...
 - [Metrics](#Metrics) to do...
 - [Unsupervised domain adaptation](#Unsupervised) to do...
 - [Datasets](#datasets) to do...
 - [Indexing Methods](#index) to do...
-- [packages](#packages) to do...
+- [Packages](#packages) to do...
+- [Reader](#reader) to do...
 - [Conferences](#Conferences) to do...
 
 ***
