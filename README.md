@@ -53,102 +53,141 @@ Work in progress...
 
 ## Survey Paper
 
-- [Semantic Matching in Search](https://dl.acm.org/doi/abs/10.1561/1500000035)（Li et al., 2014）
-- [Pretrained Transformers for Text Ranking: BERT and Beyond](https://arxiv.org/abs/2010.06467)（Lin et al., 2021, arXiv）
-- [**Semantic Models for the First-stage Retrieval: A Comprehensive Review**](https://arxiv.org/pdf/2103.04831.pdf) **（Guo et al., 2021, TOIS）**<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
-- [A Proposed Conceptual Framework for a Representational Approach to Information Retrieval](https://arxiv.org/pdf/2110.01529.pdf)（Lin et al., 2021, arXiv）
-- [Pre-training Methods in Information Retrieval](https://arxiv.org/pdf/2111.13853.pdf)（Fan et al., 2022, arXiv）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
-- [Dense Text Retrieval based on Pretrained Language Models: A Survey](https://arxiv.org/pdf/2211.14876.pdf) （Zhao et al., 2022, arXiv） <img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
-- [Low-Resource Dense Retrieval for Open-Domain Question Answering: A Comprehensive Survey](https://arxiv.org/pdf/2208.03197.pdf)（Shen et al., 2022, arXiv）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
-- [Lecture Notes on Neural Information Retrieval](https://arxiv.org/pdf/2207.13443.pdf)（ Tonellotto et al., 2022, arXiv）<img src="./images/new.gif" alt="image-20191107150755839" style="zoom:150%;" />
+| **Paper** | **Author** | **Venue** | **Code** |
+| --- | --- | --- | --- |
+| [Semantic Matching in Search](https://dl.acm.org/doi/abs/10.1561/1500000035) | Li et al., 2014 | NA | NA |
+| [Pretrained Transformers for Text Ranking: BERT and Beyond](https://arxiv.org/abs/2010.06467) | Lin et al., 2021 | arXiv | NA |
+| [**Semantic Models for the First-stage Retrieval: A Comprehensive Review**](https://arxiv.org/pdf/2103.04831.pdf) | Guo et al., 2021 | TOIS | ![new.gif](./images/new.gif) |
+| [A Proposed Conceptual Framework for a Representational Approach to Information Retrieval](https://arxiv.org/pdf/2110.01529.pdf) | Lin et al., 2021 | arXiv | NA |
+| [Pre-training Methods in Information Retrieval](https://arxiv.org/pdf/2111.13853.pdf) | Fan et al., 2022 | arXiv | ![new.gif](./images/new.gif) |
+| [Dense Text Retrieval based on Pretrained Language Models: A Survey](https://arxiv.org/pdf/2211.14876.pdf) | Zhao et al., 2022 | arXiv | ![new.gif](./images/new.gif) |
+| [Low-Resource Dense Retrieval for Open-Domain Question Answering: A Comprehensive Survey](https://arxiv.org/pdf/2208.03197.pdf) | Shen et al., 2022 | arXiv | ![new.gif](./images/new.gif) |
+| [Lecture Notes on Neural Information Retrieval](https://arxiv.org/pdf/2207.13443.pdf) | Tonellotto et al., 2022 | arXiv | ![new.gif](./images/new.gif) |
 
-### Query Expansion
-- **Global Model**
-  - [Word-word Associations in Document Retrieval Systems](https://asistdl.onlinelibrary.wiley.com/doi/abs/10.1002/asi.4630200106)（1969）
-  - [Concept based Query Expansion](https://dl.acm.org/doi/pdf/10.1145/160688.160713)（1993）
-  - [Query Expansion using Lexical-Semantic Relations](https://link.springer.com/chapter/10.1007/978-1-4471-2099-5_7)（1994）
-  - [Using Query Contexts in Information Retrieval](https://dl.acm.org/doi/pdf/10.1145/1277741.1277747)（2007）
-- **Local Model**
-  - [Relevance Feedback in Information Retrieval]()（1971, **Rocchio PRF**）
-  - [Model-based Feedback in the Language Modeling Approach to Information Retrieval](https://dl.acm.org/doi/pdf/10.1145/502585.502654)（2001, **Divergence Minimization Model**）
-  - [UMass at TREC 2004: Novelty and HARD](https://scholarworks.umass.edu/cgi/viewcontent.cgi?article=1185&context=cs_faculty_pubs)（2004, **RM3 for PRF**）
-  - [Selecting Good Expansion Terms for Pseudo-Relevance Feedback](https://dl.acm.org/doi/pdf/10.1145/1390334.1390377)（2008, PRF）
-  - [A Comparative Study of Methods for Estimating Query Language Models with Pseudo Feedback](https://dl.acm.org/doi/pdf/10.1145/1645953.1646259)（2009）
-  - [Pseudo-Relevance Feedback Based on Matrix Factorization](https://dl.acm.org/doi/pdf/10.1145/2983323.2983844)（2016）
-  - [Reducing the Risk of Query Expansion via Robust Constrained Optimization](https://dl.acm.org/doi/pdf/10.1145/1645953.1646059)（2009，**query drift problem**）
-- [Query Expansion using Local and Global Document Analysis](https://dl.acm.org/doi/pdf/10.1145/3130348.3130364)（2017）
+## Query Expansion
 
+### Global Model
+| **Paper** | **Author** | **Year** | **Model** |
+| --- | --- | --- | --- |
+| [Word-word Associations in Document Retrieval Systems](https://asistdl.onlinelibrary.wiley.com/doi/abs/10.1002/asi.4630200106) | NA | 1969 | NA |
+| [Concept based Query Expansion](https://dl.acm.org/doi/pdf/10.1145/160688.160713) | NA | 1993 | NA |
+| [Query Expansion using Lexical-Semantic Relations](https://link.springer.com/chapter/10.1007/978-1-4471-2099-5_7) | NA | 1994 | NA |
+| [Using Query Contexts in Information Retrieval](https://dl.acm.org/doi/pdf/10.1145/1277741.1277747) | NA | 2007 | NA |
+
+### Local Model
+| **Paper** | **Author** | **Year** | **Model** |
+| --- | --- | --- | --- |
+| [Relevance Feedback in Information Retrieval]() | NA | 1971 | Rocchio PRF |
+| [Model-based Feedback in the Language Modeling Approach to Information Retrieval](https://dl.acm.org/doi/pdf/10.1145/502585.502654) | NA | 2001 | Divergence Minimization Model |
+| [UMass at TREC 2004: Novelty and HARD](https://scholarworks.umass.edu/cgi/viewcontent.cgi?article=1185&context=cs_faculty_pubs) | NA | 2004 | RM3 for PRF |
+| [Selecting Good Expansion Terms for Pseudo-Relevance Feedback](https://dl.acm.org/doi/pdf/10.1145/1390334.1390377) | NA | 2008 | PRF |
+| [A Comparative Study of Methods for Estimating Query Language Models with Pseudo Feedback](https://dl.acm.org/doi/pdf/10.1145/1645953.1646259) | NA | 2009 | NA |
+| [Pseudo-Relevance Feedback Based on Matrix Factorization](https://dl.acm.org/doi/pdf/10.1145/2983323.2983844) | NA | 2016 | NA |
+| [Reducing the Risk of Query Expansion via Robust Constrained Optimization](https://dl.acm.org/doi/pdf/10.1145/1645953.1646059) | NA | 2009 | query drift problem |
+| [Query Expansion using Local and Global Document Analysis](https://dl.acm.org/doi/pdf/10.1145/3130348.3130364) | NA | 2017 | NA |
 
 ## Classical Term-based Retrieval
 
-- [A Vector Space Model for Automatic Indexing](https://dl.acm.org/doi/pdf/10.1145/361219.361220?casa_token=6DLRaJE7vXAAAAAA:EBd4ds5a5xnwx4xK3NJBFcJc0L-bV_leUMaZLMoeh9Bo7ws8ziHhAXv0eUjcIGFV2PHxN-xMIKWayg)（1975, **VSM**）
-- [Developments in Automatic Text Retrieval](https://science.sciencemag.org/content/253/5023/974)（1991, **TFIDF**）
-- [Term-weighting Approaches in Automatic Text Retrieval](https://www.sciencedirect.com/science/article/abs/pii/0306457388900210)（1988, **TFIDF**）
-- [Relevance Weighting of Search Terms](https://asistdl.onlinelibrary.wiley.com/doi/abs/10.1002/asi.4630270302)（1976, **BIM**）
-- [A Theoretical Basis for the Use of Co-occurrence Data in Information Retrieval](https://www.emerald.com/insight/content/doi/10.1108/eb026637/full/html)（1997, **Tree Dependence Model**）
-- [The Probabilistic Relevance Framework: BM25 and Beyond](https://books.google.com/books?hl=zh-CN&lr=&id=yK6HxUEaZ9gC&oi=fnd&pg=PA1&dq=The+probabilistic+relevance+framework:+BM25+and+beyond&ots=cQn5bjy7qx&sig=toW262ZrGvCswV_ltDGBC7draDU#v=onepage&q=The%20probabilistic%20relevance%20framework%3A%20BM25%20and%20beyond&f=false)（2010, **BM25**）
-- [A Language Modeling Approach to Information Retrieval](https://dl.acm.org/doi/pdf/10.1145/290941.291008?casa_token=bUNLYawv-FUAAAAA:mnl3PY6G8-CVSbW76gzX2TW08jrvgWkAhfvMRUKL0FdgMezGLxChZTAD-VhNE0LN7jX0-6OSfi5Fyw)（1998, **QL**）
-- [Statistical Language Models for Information Retrieval](https://www.morganclaypool.com/doi/abs/10.2200/S00158ED1V01Y200811HLT001)（2007, **LM for IR**）
-- [Hypergeometric Language Model and Zipf-Like Scoring Function for Web Document Similarity Retrieval](https://link.springer.com/chapter/10.1007/978-3-642-16321-0_32)（2010, **LM for IR**）
-- [Probabilistic Models of Information Retrieval Based on Measuring the Divergence from Randomness](https://dl.acm.org/doi/pdf/10.1145/582415.582416)（2002, **DFR**）
+| **Paper** | **Author** | **Year** | **Model** |
+| --- | --- | --- | --- |
+| [A Vector Space Model for Automatic Indexing](https://dl.acm.org/doi/pdf/10.1145/361219.361220?casa_token=6DLRaJE7vXAAAAAA:EBd4ds5a5xnwx4xK3NJBFcJc0L-bV_leUMaZLMoeh9Bo7ws8ziHhAXv0eUjcIGFV2PHxN-xMIKWayg) | NA | 1975 | VSM |
+| [Developments in Automatic Text Retrieval](https://science.sciencemag.org/content/253/5023/974) | NA | 1991 | TFIDF |
+| [Term-weighting Approaches in Automatic Text Retrieval](https://www.sciencedirect.com/science/article/abs/pii/0306457388900210) | NA | 1988 | TFIDF |
+| [Relevance Weighting of Search Terms](https://asistdl.onlinelibrary.wiley.com/doi/abs/10.1002/asi.4630270302) | NA | 1976 | BIM |
+| [A Theoretical Basis for the Use of Co-occurrence Data in Information Retrieval](https://www.emerald.com/insight/content/doi/10.1108/eb026637/full/html) | NA | 1997 | Tree Dependence Model |
+| [The Probabilistic Relevance Framework: BM25 and Beyond](https://books.google.com/books?hl=zh-CN&lr=&id=yK6HxUEaZ9gC&oi=fnd&pg=PA1&dq=The+probabilistic+relevance+framework:+BM25+and+beyond&ots=cQn5bjy7qx&sig=toW262ZrGvCswV_ltDGBC7draDU#v=onepage&q=The%20probabilistic%20relevance%20framework%3A%20BM25%20and%20beyond&f=false) | NA | 2010 | BM25 |
+| [A Language Modeling Approach to Information Retrieval](https://dl.acm.org/doi/pdf/10.1145/290941.291008?casa_token=bUNLYawv-FUAAAAA:mnl3PY6G8-CVSbW76gzX2TW08jrvgWkAhfvMRUKL0FdgMezGLxChZTAD-VhNE0LN7jX0-6OSfi5Fyw) | NA | 1998 | QL |
+| [Statistical Language Models for Information Retrieval](https://www.morganclaypool.com/doi/abs/10.2200/S00158ED1V01Y200811HLT001) | NA | 2007 | LM for IR |
+| [Hypergeometric Language Model and Zipf-Like Scoring Function for Web Document Similarity Retrieval](https://link.springer.com/chapter/10.1007/978-3-642-16321-0_32) | NA | 2010 | LM for IR |
+| [Probabilistic Models of Information Retrieval Based on Measuring the Divergence from Randomness](https://dl.acm.org/doi/pdf/10.1145/582415.582416) | NA | 2002 | DFR |
 
 
 
 ## Early Methods for Semantic Retrieval
+
 ### Document Expansion
-- [Corpus Structure, Language Models, and Ad Hoc Information Retrieval](https://dl.acm.org/doi/pdf/10.1145/1008992.1009027)（2004）
-- [Cluster-Based Retrieval Using Language Models](https://dl.acm.org/doi/pdf/10.1145/1008992.1009026)（2004）
-- [Language Model Information Retrieval with Document Expansion](https://aclanthology.org/N06-1052.pdf)（2006）
-- [Document Expansion Based on WordNet for Robust IR](https://aclanthology.org/C10-2002.pdf)（2010）
-- [Improving Retrieval of Short Texts Through Document Expansion](https://dl.acm.org/doi/pdf/10.1145/2348283.2348405)（2012）
-- [Document Expansion Using External Collections](https://dl.acm.org/doi/pdf/10.1145/3077136.3080716)（2017, **WordNet-based**）
-- [Document Expansion versus Query Expansion for Ad-hoc Retrieval](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.61.5571&rep=rep1&type=pdf)（2005）
+| **Paper** | **Year** | **Model** |
+| --- | --- | --- |
+| [Corpus Structure, Language Models, and Ad Hoc Information Retrieval](https://dl.acm.org/doi/pdf/10.1145/1008992.1009027) | 2004 | NA |
+| [Cluster-Based Retrieval Using Language Models](https://dl.acm.org/doi/pdf/10.1145/1008992.1009026) | 2004 | NA |
+| [Language Model Information Retrieval with Document Expansion](https://aclanthology.org/N06-1052.pdf) | 2006 | NA |
+| [Document Expansion Based on WordNet for Robust IR](https://aclanthology.org/C10-2002.pdf) | 2010 | NA |
+| [Improving Retrieval of Short Texts Through Document Expansion](https://dl.acm.org/doi/pdf/10.1145/2348283.2348405) | 2012 | NA |
+| [Document Expansion Using External Collections](https://dl.acm.org/doi/pdf/10.1145/3077136.3080716) | 2017 | WordNet-based |
+| [Document Expansion versus Query Expansion for Ad-hoc Retrieval](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.61.5571&rep=rep1&type=pdf) | 2005 | NA |
 
 ### Term Dependency Model
-- [Experiments in Automatic Phrase Indexing For Document Retrieval: A Comparison of Syntactic and Non-Syntactic Methods](https://www.proquest.com/openview/94f58af398638882ce784a030bf5c558/1?pq-origsite=gscholar&cbl=18750&diss=y)（1987, **VSM + term dependency**）
-- [Term-weighting Approaches in Automatic Text Retrieval](https://www.sciencedirect.com/science/article/abs/pii/0306457388900210)（1988, **VSM + term dependency**）
-- [An Analysis of Statistical and Syntactic Phrases](http://www.singhal.info/riao97.pdf)（1997, **VSM + term dependency**）
-- [A Probabilistic Model of Information Retrieval: Development and Comparative Experiments](https://www.sciencedirect.com/science/article/abs/pii/S0306457300000169)（2000, **VSM + term dependency**）
-- [Relevance Ranking Using Kernels](https://link.springer.com/chapter/10.1007/978-3-642-17187-1_1)（2010, **BM25 + term dependency**）
-- [A General Language Model for Information Retrieval ](https://dl.acm.org/doi/pdf/10.1145/319950.320022)（1999, **LM + term dependency**）
-- [Biterm Language Models for Document Retrieval](https://dl.acm.org/doi/pdf/10.1145/564376.564476?casa_token=g4XBXaBMO5EAAAAA:FSomCNOm9l3mg2FquRVSmCHnx14lpJN0Ah0lkBGIpn0CUqgk66V85tqAL5BTbC7hmhhew8vhEFRg)（2002, **LM + term dependency**）
-- [Capturing Term Dependencies using a Language Model based on Sentence Trees](https://dl.acm.org/doi/pdf/10.1145/584792.584855)（2002, **LM + term dependency**）
-- [Dependence Language Model for Information Retrieval](https://dl.acm.org/doi/pdf/10.1145/1008992.1009024)（2004, **LM + term dependency**）
-- [A Generative Theory of Relevance](https://books.google.com/books?hl=zh-CN&lr=&id=pQ6h1Yz9oykC&oi=fnd&pg=PA1&dq=A+generative+theory+of+relevance&ots=_apNyA0auQ&sig=hzY0QDSTr9CrYbTRTYXD_tsMx6U#v=onepage&q=A%20generative%20theory%20of%20relevance&f=false)（2008）
-- [A Markov Random Field Model for Term Dependencies](https://dl.acm.org/doi/pdf/10.1145/1076034.1076115)（2005, **SDM**）
+| **Paper** | **Year** | **Model** |
+| --- | --- | --- |
+| [Experiments in Automatic Phrase Indexing For Document Retrieval: A Comparison of Syntactic and Non-Syntactic Methods](https://www.proquest.com/openview/94f58af398638882ce784a030bf5c558/1?pq-origsite=gscholar&cbl=18750&diss=y) | 1987 | VSM + term dependency |
+| [Term-weighting Approaches in Automatic Text Retrieval](https://www.sciencedirect.com/science/article/abs/pii/0306457388900210) | 1988 | VSM + term dependency |
+| [An Analysis of Statistical and Syntactic Phrases](http://www.singhal.info/riao97.pdf) | 1997 | VSM + term dependency |
+| [A Probabilistic Model of Information Retrieval: Development and Comparative Experiments](https://www.sciencedirect.com/science/article/abs/pii/S0306457300000169) | 2000 | VSM + term dependency |
+| [Relevance Ranking Using Kernels](https://link.springer.com/chapter/10.1007/978-3-642-17187-1_1) | 2010 | BM25 + term dependency |
+| [A General Language Model for Information Retrieval](https://dl.acm.org/doi/pdf/10.1145/319950.320022) | 1999 | LM + term dependency |
+| [Biterm Language Models for Document Retrieval](https://dl.acm.org/doi/pdf/10.1145/564376.564476?casa_token=g4XBXaBMO5EAAAAA:FSomCNOm9l3mg2FquRVSmCHnx14lpJN0Ah0lkBGIpn0CUqgk66V85tqAL5BTbC7hmhhew8vhEFRg) | 2002 | LM + term dependency |
+| [Capturing Term Dependencies using a Language Model based on Sentence Trees](https://dl.acm.org/doi/pdf/10.1145/584792.584855) | 2002 | LM + term dependency |
+| [Dependence Language Model for Information Retrieval](https://dl.acm.org/doi/pdf/10.1145/1008992.1009024) | 2004 | LM + term dependency |
+| [A Generative Theory of Relevance](https://books.google.com/books?hl=zh-CN&lr=&id=pQ6h1Yz9oykC&oi=fnd&pg=PA1&dq=A+generative+theory+of+relevance&ots=_apNyA0auQ&sig=hzY0QDSTr9CrYbTRTYXD_tsMx6U#v=onepage&q=A%20generative%20theory%20of%20relevance&f=false) | 2008 | NA |
+| [A Markov Random Field Model for Term Dependencies](https://dl.acm.org/doi/pdf/10.1145/1076034.1076115) | 2005 | SDM |
 
-### Topic Model
-- [Generalized Vector Space Model In Information Retrieval](https://dl.acm.org/doi/pdf/10.1145/253495.253506)（1985, **GVSM**）
-- [Indexing by Latent Semantic Analysis](https://asistdl.onlinelibrary.wiley.com/doi/abs/10.1002/(SICI)1097-4571(199009)41:6%3C391::AID-ASI1%3E3.0.CO;2-9)（1990, **LSI for IR**）
-- [Probabilistic Latent Semantic Indexing](https://dl.acm.org/doi/pdf/10.1145/312624.312649?casa_token=7XwmJlApc80AAAAA:RM5pkFN1FYzICP1ZbSaj8ADlRxUY_x7g5nwOTpc7hFqOX2_QsYafNJ4Q7VN4fnens87w_j7L5wvR)（2017, **PLSA, linearly combine**）
-- [Corpus Structure, Language Models, and Ad Hoc Information Retrieval](https://dl.acm.org/doi/pdf/10.1145/1008992.1009027)（2004, **smoothing**)
-- [Regularizing Ad Hoc Retrieval Scores](https://dl.acm.org/doi/pdf/10.1145/1099554.1099722)（2005, **smoothing**）
-- [LDA-Based Document Models for Ad-Hoc Retrieval](https://dl.acm.org/doi/pdf/10.1145/1148170.1148204)（2006, **LDA for IR and LDA for LM smoothing**）
-- [A Comparative Study of Utilizing Topic Models for Information Retrieval](https://link.springer.com/chapter/10.1007/978-3-642-00958-7_6)（2009, **smoothing**）
-- [Investigating Task Performance of Probabilistic Topic Models: An Empirical Study of PLSA and LDA](https://link.springer.com/article/10.1007/s10791-010-9141-9)（2010）
-- [Latent Semantic Indexing (LSI) Fails for TREC Collections](https://dl.acm.org/doi/pdf/10.1145/1964897.1964900)（2011）
+## Early Methods for Semantic Retrieval
+
+### Document Expansion
+| **Paper** | **Year** | **Author** | **Code** |
+| --- | --- | --- | --- |
+| [Corpus Structure, Language Models, and Ad Hoc Information Retrieval](https://dl.acm.org/doi/pdf/10.1145/1008992.1009027) | 2004 | Susan T. Dumais | NA |
+| [Cluster-Based Retrieval Using Language Models](https://dl.acm.org/doi/pdf/10.1145/1008992.1009026) | 2004 | Susan T. Dumais | NA |
+| [Language Model Information Retrieval with Document Expansion](https://aclanthology.org/N06-1052.pdf) | 2006 | Jimmy Lin | NA |
+| [Document Expansion Based on WordNet for Robust IR](https://aclanthology.org/C10-2002.pdf) | 2010 | Jey Han Lau | NA |
+| [Improving Retrieval of Short Texts Through Document Expansion](https://dl.acm.org/doi/pdf/10.1145/2348283.2348405) | 2012 | Hang Li | NA |
+| [Document Expansion Using External Collections](https://dl.acm.org/doi/pdf/10.1145/3077136.3080716) | 2017 | Hui Fang | WordNet-based |
+| [Document Expansion versus Query Expansion for Ad-hoc Retrieval](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.61.5571&rep=rep1&type=pdf) | 2005 | Douglas W. Oard | NA |
+
+### Term Dependency Model
+| **Paper** | **Author** | **Year** | **Code** |
+| --- | --- | --- | --- |
+| [Experiments in Automatic Phrase Indexing For Document Retrieval: A Comparison of Syntactic and Non-Syntactic Methods](https://www.proquest.com/openview/94f58af398638882ce784a030bf5c558/1?pq-origsite=gscholar&cbl=18750&diss=y) | 1987 | Donna Harman | VSM + term dependency |
+| [Term-weighting Approaches in Automatic Text Retrieval](https://www.sciencedirect.com/science/article/abs/pii/0306457388900210) | 1988 | Stephen E. Robertson | VSM + term dependency |
+| [An Analysis of Statistical and Syntactic Phrases](http://www.singhal.info/riao97.pdf) | 1997 | Amit Singhal | VSM + term dependency |
+| [A Probabilistic Model of Information Retrieval: Development and Comparative Experiments](https://www.sciencedirect.com/science/article/abs/pii/S0306457300000169) | 2000 | Stephen E. Robertson | VSM + term dependency |
+| [Relevance Ranking Using Kernels](https://link.springer.com/chapter/10.1007/978-3-642-17187-1_1) | 2010 | ChengXiang Zhai | BM25 + term dependency |
+| [A General Language Model for Information Retrieval ](https://dl.acm.org/doi/pdf/10.1145/319950.320022) | 1999 | Donald Metzler | LM + term dependency |
+| [Biterm Language Models for Document Retrieval](https://dl.acm.org/doi/pdf/10.1145/564376.564476?casa_token=g4XBXaBMO5EAAAAA:FSomCNOm9l3mg2FquRVSmCHnx14lpJN0Ah0lkBGIpn0CUqgk66V85tqAL5BTbC7hmhhew8vhEFRg) | 2002 | Qiaozhu Mei | LM + term dependency |
+| [Capturing Term Dependencies using a Language Model based on Sentence Trees](https://dl.acm.org/doi/pdf/10.1145/584792.584855) | 2002 | Qiaozhu Mei | LM + term dependency |
+| [Dependence Language Model for Information Retrieval](https://dl.acm.org/doi/pdf/10.1145/1008992.1009024) | 2004 | Zhiheng Huang | LM + term dependency |
+| [A Generative Theory of Relevance](https://books.google.com/books?hl=zh-CN&lr=&id=pQ6h1Yz9oykC&oi=fnd&pg=PA1&dq=A+generative+theory+of+relevance&ots=_apNyA0auQ&sig=hzY0QDSTr9CrYbTRTYXD_tsMx6U#v=onepage&q=A%20generative%20theory%20of%20relevance&f=false) | 2008 | Susan T. Dumais | NA |
+| [A Markov Random Field Model for Term Dependencies](https://dl.acm.org/doi/pdf/10.1145/1076034.1076115) | 2005 | Tao Tao | SDM |
+
+
+
 
 ### Translation Model
-- [Information Retrieval as Statistical Translation](https://dl.acm.org/doi/pdf/10.1145/3130348.3130371)（1999）
-- [Estimation of Statistical Translation Models Based on Mutual Information for Ad Hoc Information Retrieval](https://dl.acm.org/doi/pdf/10.1145/1835449.1835505)（2010）
-- [Clickthrough-Based Translation Models for Web Search: From Word Models to Phrase Models](https://dl.acm.org/doi/pdf/10.1145/1871437.1871582)（2010）
-- [Axiomatic Analysis of Translation Language Model for Information Retrieval](https://link.springer.com/chapter/10.1007/978-3-642-28997-2_23)（2012）
-- [Query Rewriting Using Monolingual Statistical Machine Translation](https://watermark.silverchair.com/coli_a_00010.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAsAwggK8BgkqhkiG9w0BBwagggKtMIICqQIBADCCAqIGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMVRPWjEXEOlOmEffWAgEQgIICc4KGr_VC0hYGO5dt-b73nOgVFWgTKA_ag9PwLVsG_tT8CaHn8Z_w5cRnF2SMKozw24Bwo0qfEaHATtgLiFJWzV-gDjlWAZ_5UOcwg7mFH1WTWXQcQuTfmhyFgEIWL-5h2BTSdywJp5BPLL8MuuhxRnsQTZcrg55nVXf_DPmd--Q7wtEJZbaf9Hu9ec3GoaD8nVKX2dU8uPVY-QtuqaJR9NICNb7rnGGSyfkJU_a9978VltWxUzXa0dqVA-Us4XwqVEwnac3VuXp57HIVnvnFA1QYlqJ2XoFRagAD0ayGJKSwJoNoZBt51n3kaelhFzx-VlLMpbNvLL3Ju9kIEIoxw1tXclZ_RKO8_AYnjrA7swxHAfzMyTiRap4wuNVwTP7ihog6G0igesb13FxnAEm42QQKGTByI1V76QH0bRcuqmKKNTUB1bQgXJKKtpRFsir-OXv_3mTiAogZxx2ID2cHBOWl97lsim-FYn_Ru-zRzffzyO_YDo9mbuVQk-yu0jMXtt_wTf2aLg4fDLwIkFOk5mblZZiLGyR7NzshENK-4-V25iHNcgqxycmtec5gTq7MHQhoLE9uexe0VZ_KVghilCHS6GuTKa1w6kbObAe_aAGkgSjlda9GKGUf3dhzUJHS4YP4JPmg-9SmP035ybc5xMuODR3gLno-m1mYe7nuxqVyWMl9-7fX_4a2wsaS57jhfKmnzzHynTcWsuw33serRn6W09un-5oEKKPj4V1BUXnJEHVqiWhoi3C4U_RRgMJoyL6CMh7f4nz_pgIbsrc-q6tq7znucehc6wVCumsgH1XEDK7JQUCtUhsOxponhu-xmOSTdw)（2010, **for query expansion**）
-- [Towards Concept-based Translation Models using Search Logs for Query Expansion](https://dl.acm.org/doi/pdf/10.1145/2396761.2530275)（2012, **for query expansion**）
+| **Paper** | **Author** | **Year** | **Code** |
+| --- | --- | --- | --- |
+| [Information Retrieval as Statistical Translation](https://dl.acm.org/doi/pdf/10.1145/3130348.3130371) | Bonnie J. Dorr | 1999 | NA |
+| [Estimation of Statistical Translation Models Based on Mutual Information for Ad Hoc Information Retrieval](https://dl.acm.org/doi/pdf/10.1145/1835449.1835505) | Benjamin Van Durme | 2010 | NA |
+| [Clickthrough-Based Translation Models for Web Search: From Word Models to Phrase Models](https://dl.acm.org/doi/pdf/10.1145/1871437.1871582) | Hang Li | 2010 | NA |
+| [Axiomatic Analysis of Translation Language Model for Information Retrieval](https://link.springer.com/chapter/10.1007/978-3-642-28997-2_23) | ChengXiang Zhai | 2012 | NA |
+| [Query Rewriting Using Monolingual Statistical Machine Translation](https://watermark.silverchair.com/coli_a_00010.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAsAwggK8BgkqhkiG9w0BBwagggKtMIICqQIBADCCAqIGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMVRPWjEXEOlOmEffWAgEQgIICc4KGr_VC0hYGO5dt-b73nOgVFWgTKA_ag9PwLVsG_tT8CaHn8Z_w5cRnF2SMKozw24Bwo0qfEaHATtgLiFJWzV-gDjlWAZ_5UOcwg7mFH1WTWXQcQuTfmhyFgEIWL-5h2BTSdywJp5BPLL8MuuhxRnsQTZcrg55nVXf_DPmd--Q7wtEJZbaf9Hu9ec3GoaD8nVKX2dU8uPVY-QtuqaJR9NICNb7rnGGSyfkJU_a9978VltWxUzXa0dqVA-Us4XwqVEwnac3VuXp57HIVnvnFA1QYlqJ2XoFRagAD0ayGJKSwJoNoZBt51n3kaelhFzx-VlLMpbNvLL3Ju9kIEIoxw1tXclZ_RKO8_AYnjrA7swxHAfzMyTiRap4wuNVwTP7ihog6G0igesb13FxnAEm42QQKGTByI1V76QH0bRcuqmKKNTUB1bQgXJKKtpRFsir-OXv_3mTiAogZxx2ID2cHBOWl97lsim-FYn_Ru-zRzffzyO_YDo9mbuVQk-yu0jMXtt_wTf2aLg4fDLwIkFOk5mblZZiLGyR7NzshENK-4-V25iHNcgqxycmtec5gTq7MHQhoLE9uexe0VZ_KVghilCHS6GuTKa1w6kbObAe_aAGkgSjlda9GKGUf3dhzUJHS4YP4JPmg-9SmP035ybc5xMuODR3gLno-m1mYe7nuxqVyWMl9-7fX_4a2wsaS57jhfKmnzzHynTcWsuw33serRn6W09un-5oEKKPj4V1BUXnJEHVqiWhoi3C4U_RRgMJoyL6CMh7f4nz_pgIbsrc-q6tq7znucehc6wVCumsgH1XEDK7JQUCtUhsOxponhu-xmOSTdw) | Maosong Sun | 2010 | for query expansion |
+| [Towards Concept-based Translation Models using Search Logs for Query Expansion](https://dl.acm.org/doi/pdf/10.1145/2396761.2530275) | Zhen Tan | 2012 | for query expansion |
 
 
 
 ## Neural Methods for Semantic Retrieval
 ### Sparse Retrieval Methods
 - **Term Re-weighting**
-  - [Learning to Reweight Terms with Distributed Representations](https://dl.acm.org/doi/pdf/10.1145/2766462.2767700)（Zheng et al., 2015, SIGIR, **DeepTR**）
-  - [Integrating and Evaluating Neural Word Embeddings in Information Retrieval](https://dl.acm.org/doi/pdf/10.1145/2838931.2838936)（Zuccon et al., 2015, ADCS, **NTLM**）
-  - [Learning Term Discrimination](https://dl.acm.org/doi/pdf/10.1145/3397271.3401211)（Frej et al, 2020, SIGIR, **TDV**）
-  - [Context-Aware Sentence/Passage Term Importance Estimation for First Stage Retrieval](https://arxiv.org/pdf/1910.10687.pdf)（Dai et al., 2019, arXiv, **DeepCT**）
-  - [Context-Aware Term Weighting For First-Stage Passage Retrieval](https://dl.acm.org/doi/pdf/10.1145/3397271.3401204)（Dai et al., 2020, SIGIR, **DeepCT**）
-  - [Efficiency Implications of Term Weighting for Passage Retrieval](https://dl.acm.org/doi/pdf/10.1145/3397271.3401263)（Mackenzie et al., 2020, SIGIR, **DeepCT**）
-  - [Context-Aware Document Term Weighting for Ad-Hoc Search](https://dl.acm.org/doi/pdf/10.1145/3366423.3380258)（Dai et al., 2020, WWW, **HDCT**）
-  - [A Few Brief Notes on DeepImpact, COIL, and a Conceptual Framework for Information Retrieval Techniques](https://arxiv.org/pdf/2106.14807.pdf)（Lin et al., 2021, arXiv, **uniCOIL**）
+| **Paper** | **Author** | **Year** | **Conference/Journal** | **Code** |
+| --- | --- | --- | --- | --- |
+| [Learning to Reweight Terms with Distributed Representations](https://dl.acm.org/doi/pdf/10.1145/2766462.2767700) | Zheng et al. | 2015 | SIGIR | DeepTR |
+| [Integrating and Evaluating Neural Word Embeddings in Information Retrieval](https://dl.acm.org/doi/pdf/10.1145/2838931.2838936) | Zuccon et al. | 2015 | ADCS | NTLM |
+| [Learning Term Discrimination](https://dl.acm.org/doi/pdf/10.1145/3397271.3401211) | Frej et al. | 2020 | SIGIR | TDV |
+| [Context-Aware Sentence/Passage Term Importance Estimation for First Stage Retrieval](https://arxiv.org/pdf/1910.10687.pdf) | Dai et al. | 2019 | arXiv | DeepCT |
+| [Context-Aware Term Weighting For First-Stage Passage Retrieval](https://dl.acm.org/doi/pdf/10.1145/3397271.3401204) | Dai et al. | 2020 | SIGIR | DeepCT |
+| [Efficiency Implications of Term Weighting for Passage Retrieval](https://dl.acm.org/doi/pdf/10.1145/3397271.3401263) | Mackenzie et al. | 2020 | SIGIR | DeepCT |
+| [Context-Aware Document Term Weighting for Ad-Hoc Search](https://dl.acm.org/doi/pdf/10.1145/3366423.3380258) | Dai et al. | 2020 | WWW | HDCT |
+| [A Few Brief Notes on DeepImpact, COIL, and a Conceptual Framework for Information Retrieval Techniques](https://arxiv.org/pdf/2106.14807.pdf) | Lin et al. | 2021 | arXiv | uniCOIL |
+
 - **Expansion**
   - [Document Expansion by query Prediction](https://arxiv.org/pdf/1904.08375.pdf)（Nogueira et al., 2019, arXiv, **Doc2Query**）
   - [From doc2query to docTTTTTquery](https://cs.uwaterloo.ca/~jimmylin/publications/Nogueira_Lin_2019_docTTTTTquery-v2.pdf)（Nogueira et al., 2019, arXiv, **DocTTTTTQuery**）
