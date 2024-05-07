@@ -1,4 +1,4 @@
-# information-retriever-Pipline
+# information-retriever-pipeline
 I am doing a PhD on Information retriever and I am happy to share what I learning 
 All what you need for information retrieval resources. (Inspired by caiyinqiong)
 
