@@ -12,7 +12,6 @@ All what you need for information retrieval resources. (Inspired by caiyinqiong)
 
 <br>
 <div align="center">
-    <p><b>Pipeline of IR - Inference </b></p>
     <br><br>
    <img width="500" src="./images/inference.png" alt="Awesome">
 </div>
