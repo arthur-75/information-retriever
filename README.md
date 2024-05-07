@@ -7,6 +7,9 @@ All what you need for information retrieval resources. (Inspired by caiyinqiong)
     <br><br>
    <img width="500" src="./images/build_pip.png" alt="Awesome">
 </div>
+
+
+
 <br>
 <div align="center">
     <p><b>Pipeline of IR - Inference </b></p>
